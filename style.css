@@ -1,0 +1,54 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+.header {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+}
+.logo {
+  margin: 0;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 40px;
+}
+img {
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.edu-item {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.edu-item div {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+}
+img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
